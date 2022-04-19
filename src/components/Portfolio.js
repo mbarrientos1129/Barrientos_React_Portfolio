@@ -3,8 +3,8 @@ function Portfolio() {
     const ProjectsArray = [
         {
             link: 'https://infinite-caverns-73704.herokuapp.com/',
-            title: 'test',
-            image: './Assets/Cumulus-Chat Image.png'
+            title: 'Cumulus Chat',
+            image: 'Assets/Cumulus-Chat.png'
         },
         {
             link: 'https://www.google.com',
