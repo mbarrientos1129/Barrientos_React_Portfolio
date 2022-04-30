@@ -1,4 +1,5 @@
 import Project from "./Project";
+
 const styles = {
     heading: {
     margin: 0,
@@ -14,17 +15,17 @@ function Portfolio() {
         {
             link: 'https://infinite-caverns-73704.herokuapp.com/',
             title: 'Cumulus Chat',
-            image: './Assets/Cumulus-Chat.png'
+            image: '../Assets/Cumulus-Chat.png'
         },
         {
             link: 'https://github.com/mbarrientos1129/E-Commerce-ORM_HW',
             title: 'Ecommerce Back-End',
-            image: './Assets/Ecommerce.png'
+            image: '../Assets/Ecommerce.png'
         },
         {
             link: 'https://mbarrientos1129.github.io/mighty-mustangs-Project-1-Group/',
             title: 'filmBites!',
-            image: './Assets/filmBites.PNG'
+            image: '../Assets/filmBites.PNG'
         },
     ]
     return (

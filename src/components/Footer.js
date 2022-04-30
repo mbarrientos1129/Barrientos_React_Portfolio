@@ -8,6 +8,15 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
+const styles = {
+    heading: {
+      margin: 0,
+      padding: '75px',
+      textAlign: 'center',
+      fontSize: '3rem',
+    },
+};
+
 function Footer() {
     return (
 
@@ -16,7 +25,7 @@ function Footer() {
             <footer className="footer contentBox">
 
                 <div className="row">  
-                <h3>Contact Info:</h3>
+                <h3 style={styles.heading}>Contact Info:</h3>
                     <div className="col d-flex justify-content-end text-end">
                         <a href="https://www.linkedin.com/in/michael-barrientos-a18089205/"><FontAwesomeIcon icon={faLinkedin} size='lg'/></a> 
                     </div>

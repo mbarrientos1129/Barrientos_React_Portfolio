@@ -11,7 +11,8 @@ const styles = {
     padding: '20px',
     height: '250px',
     margin: '0',
-    textAlign: 'center'
+    textAlign: 'center',
+    fontSize: '20px'
   }
 };
 
