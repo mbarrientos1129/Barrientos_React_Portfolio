@@ -15,6 +15,18 @@ const styles = {
       textAlign: 'center',
       fontSize: '3rem',
     },
+    icons: {
+        display: 'flex inline-block',
+        padding: '20px 50px',
+        align: 'center',
+        fontSize: '50px',
+        textAlign: 'center',
+        margin: '1rem',
+        borderRadius: '10px',
+        boarder: '3px solid',
+        flexFlow: 'row wrap',
+        
+    }
 };
 
 function Footer() {
@@ -26,13 +38,11 @@ function Footer() {
 
                 <div className="row">  
                 <h3 style={styles.heading}>Contact Info:</h3>
-                    <div className="col d-flex justify-content-end text-end">
+                    <div style={styles.icons} className="col d-flex justify-content-end text-end">
                         <a href="https://www.linkedin.com/in/michael-barrientos-a18089205/"><FontAwesomeIcon icon={faLinkedin} size='lg'/></a> 
-                    </div>
-                    <div className="col d-flex justify-content-center text-center">
+
                         <a href="https://github.com/mbarrientos1129"><FontAwesomeIcon icon={faGithub} size='lg'/></a> 
-                    </div>
-                    <div className="col d-flex justify-content-start text-start">
+
                         <a href="mailto:michael.barrientos1129@gmail.com"><FontAwesomeIcon icon={faEnvelope} size='lg'/></a>       
                     </div>
                 </div>           
