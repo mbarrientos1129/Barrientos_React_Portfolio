@@ -18,7 +18,7 @@ function Nav() {
     <div className="App">
       <nav style={styles.heading}>
         <a style={styles.anchor} href="">Contact Me</a>
-        <a style={styles.anchor} href="Portfolio">Portfolio</a>
+        <a style={styles.anchor} href='Portfolio'>Portfolio</a>
         <a style={styles.anchor} href="About">About Me</a>
       </nav>
     </div>
