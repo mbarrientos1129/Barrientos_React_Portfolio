@@ -18,7 +18,21 @@ const styles = {
         margin: '0',
         textAlign: 'center',
         fontSize: '20px'
-    }
+    },
+    button: {
+        textDecoration: 'none',
+        textTransform: 'uppercase',
+        letterSpacing: '2px',
+        color: 'black',
+        outline: '2px solid black',
+        padding: '30px 60px',
+        position: 'absolute',
+        overflow: 'hidden',
+        margin: '0',
+        transform: 'translateY(-50%) translateX(240%)',
+        
+    },
+    
 };
 
 function ResumePage() {
@@ -34,7 +48,7 @@ function ResumePage() {
                     <p style={styles.paragraph}>
                         Here is my current resume. Thank you.
                     </p>
-                    <a href="https://docs.google.com/document/d/1HYmKDNpf1VzUYdHUIuVRQQktXBKI10d-/edit" target="_blank" rel="noopener noreferrer"><button className="portfolioBtn downloadBtn">Download</button></a>
+                    <a href="https://docs.google.com/document/d/1HYmKDNpf1VzUYdHUIuVRQQktXBKI10d-/edit" target="_blank" rel="noopener noreferrer"><button style={styles.button} className="portfolioBtn downloadBtn">Download</button></a>
 
 
 
