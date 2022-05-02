@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://mbarrientos1129.github.io/my-app",
+  "homepage": "https://mbarrientos1129.github.io/Barrientos_React_Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

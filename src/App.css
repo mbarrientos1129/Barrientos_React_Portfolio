@@ -9,7 +9,9 @@ flex-flow: row wrap;
 margin: 1rem;
 display: inline-block;
 }
-
+.Project img {
+width: 250px;
+}
 
 .Project:hover{
     animation:pulsate 1s
@@ -23,4 +25,15 @@ display: inline-block;
     }
 }
 
-
+.portfolioBtn{
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: black;
+        outline: 2px solid black;
+        padding: 30px 60px;
+        position: absolute;
+        overflow: hidden;
+        margin: 0;
+        transform: translateY(-50%) translateX(240%);
+}
