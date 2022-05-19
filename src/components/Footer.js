@@ -1,8 +1,5 @@
-//Use favicons fot Githhub, Linked In, aned any other third party social media platform
-//These all ,ust have working links to those sites using Href as normal.
-//Refer back to old portfolio for HTML lay out
-
 import React from 'react';
+import '../App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -14,6 +11,7 @@ const styles = {
       padding: '75px',
       textAlign: 'center',
       fontSize: '3rem',
+      color: 'white'
     },
     icons: {
         display: 'flex inline-block',
@@ -21,7 +19,7 @@ const styles = {
         align: 'center',
         fontSize: '50px',
         textAlign: 'center',
-        margin: '1rem',
+        margin: 0,
         borderRadius: '10px',
         boarder: '3px solid',
         flexFlow: 'row wrap',
@@ -38,7 +36,7 @@ function Footer() {
 
                 <div className="row">  
                 <h3 style={styles.heading}>Contact Info:</h3>
-                    <div style={styles.icons} className="col d-flex justify-content-end text-end">
+                    <div style={styles.icons} className="col d-flex justify-content-end text-end" id= 'icons'>
                         <a href="https://www.linkedin.com/in/michael-barrientos-a18089205/"><FontAwesomeIcon icon={faLinkedin} size='lg'/></a> 
 
                         <a href="https://github.com/mbarrientos1129"><FontAwesomeIcon icon={faGithub} size='lg'/></a> 
