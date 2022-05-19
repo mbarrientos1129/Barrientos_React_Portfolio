@@ -15,7 +15,7 @@ const styles = {
 
 function Nav() {
   return (
-    <div className="App">
+    <div className="sideNav">
       <nav style={styles.heading}>
         <a style={styles.anchor} href="/contact">Contact Me</a>
         <a style={styles.anchor} href='/portfolio'>Portfolio</a>
