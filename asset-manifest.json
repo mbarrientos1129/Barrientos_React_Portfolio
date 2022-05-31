@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dd56ddad.css",
-    "main.js": "/static/js/main.25ace8cb.js",
+    "main.js": "/static/js/main.806fc5a7.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/bookSearch.PNG": "/static/media/bookSearch.286f3252ff8fb4b066f1.PNG",
     "static/media/Cumulus-Chat.png": "/static/media/Cumulus-Chat.8f82a2b8004a63e363d1.png",
@@ -12,11 +12,11 @@
     "static/media/Ecommerce.png": "/static/media/Ecommerce.35b81fa9a3e860c2feae.png",
     "index.html": "/index.html",
     "main.dd56ddad.css.map": "/static/css/main.dd56ddad.css.map",
-    "main.25ace8cb.js.map": "/static/js/main.25ace8cb.js.map",
+    "main.806fc5a7.js.map": "/static/js/main.806fc5a7.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd56ddad.css",
-    "static/js/main.25ace8cb.js"
+    "static/js/main.806fc5a7.js"
   ]
 }
