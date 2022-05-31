@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename = '/Barrientos_React_Portfolio'>
         <Nav/>
           <Routes>
             <Route exact path="/" element={<About/>} />
