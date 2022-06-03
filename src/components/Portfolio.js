@@ -1,3 +1,4 @@
+import React from "react";
 import Project from "./Project";
 import cumulusChat from "./Assets/Cumulus-Chat.png";
 import eCommerce from "./Assets/Ecommerce.png";

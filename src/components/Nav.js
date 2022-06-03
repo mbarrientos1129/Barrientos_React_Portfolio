@@ -1,3 +1,5 @@
+import React from "react";
+
 const styles = {
   heading: {
     padding: '50px',
@@ -13,13 +15,26 @@ const styles = {
   }
 }
 
-function Nav() {
+function Nav({ currentPage, handlePageChange}) {
   return (
     <div className="sideNav">
       <nav style={styles.heading}>
-        <a style={styles.anchor} href="/contact">Contact Me</a>
-        <a style={styles.anchor} href='/portfolio'>Portfolio</a>
-        <a style={styles.anchor} href="/">Home</a>
+        <a style={styles.anchor} 
+        href="#contact"
+        onClick={() => handlePageChange('Contact')}
+        className={currentPage === 'Contact' ? 'nav-link active' : 'nav.link'}>
+          Contact Me</a>
+
+        <a style={styles.anchor} 
+        href='#portfolio'
+        onClick={() => handlePageChange('Portfolio')}
+        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav.link'}>
+          Portfolio</a>
+
+        <a style={styles.anchor} 
+        href="#contact"
+        onClick={() => handlePageChange('About')}
+        className={currentPage === 'About' ? 'nav-link active' : 'nav.link'}>Home</a>
       </nav>
     </div>
   );
