@@ -33,7 +33,7 @@ function ResumePage() {
                     <p style={styles.paragraph}>
                         This is my current resume. Please take a look!
                     </p>
-                    <a href="https://docs.google.com/document/d/1HYmKDNpf1VzUYdHUIuVRQQktXBKI10d-/edit" target="_blank" rel="noopener noreferrer"><button style={styles.button} className="portfolioBtn">Download</button></a>
+                    <a href="https://drive.google.com/drive/u/0/folders/1fAQ-GzXhYTjiPlkNglKIrM4q08wpt96X" target="_blank" rel="noopener noreferrer"><button style={styles.button} className="portfolioBtn">Download</button></a>
 
 
 
