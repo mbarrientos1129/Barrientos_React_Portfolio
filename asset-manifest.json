@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Barrientos_React_Portfolio/static/css/main.dd56ddad.css",
-    "main.js": "/Barrientos_React_Portfolio/static/js/main.f9e3650c.js",
+    "main.js": "/Barrientos_React_Portfolio/static/js/main.95b7a54c.js",
     "static/js/787.a2cb61a6.chunk.js": "/Barrientos_React_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/bookSearch.PNG": "/Barrientos_React_Portfolio/static/media/bookSearch.286f3252ff8fb4b066f1.PNG",
     "static/media/Cumulus-Chat.png": "/Barrientos_React_Portfolio/static/media/Cumulus-Chat.8f82a2b8004a63e363d1.png",
@@ -12,11 +12,11 @@
     "static/media/Ecommerce.png": "/Barrientos_React_Portfolio/static/media/Ecommerce.35b81fa9a3e860c2feae.png",
     "index.html": "/Barrientos_React_Portfolio/index.html",
     "main.dd56ddad.css.map": "/Barrientos_React_Portfolio/static/css/main.dd56ddad.css.map",
-    "main.f9e3650c.js.map": "/Barrientos_React_Portfolio/static/js/main.f9e3650c.js.map",
+    "main.95b7a54c.js.map": "/Barrientos_React_Portfolio/static/js/main.95b7a54c.js.map",
     "787.a2cb61a6.chunk.js.map": "/Barrientos_React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd56ddad.css",
-    "static/js/main.f9e3650c.js"
+    "static/js/main.95b7a54c.js"
   ]
 }
