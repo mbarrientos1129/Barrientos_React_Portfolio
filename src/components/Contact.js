@@ -1,4 +1,6 @@
 import React from 'react';
+import devResume from '../components/Assets/Resume.pdf';
+import Button from 'react-bootstrap/Button';
 
 const styles = {
     heading: {
@@ -33,7 +35,7 @@ function ResumePage() {
                     <p style={styles.paragraph}>
                         This is my current resume. Please take a look!
                     </p>
-                    <a href="https://drive.google.com/drive/u/0/folders/1fAQ-GzXhYTjiPlkNglKIrM4q08wpt96X" target="_blank" rel="noopener noreferrer"><button style={styles.button} className="portfolioBtn">Download</button></a>
+                    <Button style={styles.button} className="portfolioBtn" variant="warning" href={devResume} download={true}>Download</Button>
 
 
 
