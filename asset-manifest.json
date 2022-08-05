@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Barrientos_React_Portfolio/static/css/main.dd56ddad.css",
-    "main.js": "/Barrientos_React_Portfolio/static/js/main.193b0d41.js",
+    "main.css": "/Barrientos_React_Portfolio/static/css/main.29eb4b59.css",
+    "main.js": "/Barrientos_React_Portfolio/static/js/main.e41de685.js",
     "static/js/787.a2cb61a6.chunk.js": "/Barrientos_React_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/bookSearch.PNG": "/Barrientos_React_Portfolio/static/media/bookSearch.286f3252ff8fb4b066f1.PNG",
     "static/media/Cumulus-Chat.png": "/Barrientos_React_Portfolio/static/media/Cumulus-Chat.8f82a2b8004a63e363d1.png",
+    "static/media/stockPhoto.jpg": "/Barrientos_React_Portfolio/static/media/stockPhoto.87e2c77e7fff179ca4a8.jpg",
     "static/media/filmBites.PNG": "/Barrientos_React_Portfolio/static/media/filmBites.b570be854603124240b5.PNG",
     "static/media/Accord.PNG": "/Barrientos_React_Portfolio/static/media/Accord.cf93d83174466880b797.PNG",
     "static/media/Resume.pdf": "/Barrientos_React_Portfolio/static/media/Resume.e008ab8e6196a5999660.pdf",
@@ -12,12 +13,12 @@
     "static/media/socialNetworkAPI.PNG": "/Barrientos_React_Portfolio/static/media/socialNetworkAPI.fa52117445d0949b17f9.PNG",
     "static/media/Ecommerce.png": "/Barrientos_React_Portfolio/static/media/Ecommerce.35b81fa9a3e860c2feae.png",
     "index.html": "/Barrientos_React_Portfolio/index.html",
-    "main.dd56ddad.css.map": "/Barrientos_React_Portfolio/static/css/main.dd56ddad.css.map",
-    "main.193b0d41.js.map": "/Barrientos_React_Portfolio/static/js/main.193b0d41.js.map",
+    "main.29eb4b59.css.map": "/Barrientos_React_Portfolio/static/css/main.29eb4b59.css.map",
+    "main.e41de685.js.map": "/Barrientos_React_Portfolio/static/js/main.e41de685.js.map",
     "787.a2cb61a6.chunk.js.map": "/Barrientos_React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd56ddad.css",
-    "static/js/main.193b0d41.js"
+    "static/css/main.29eb4b59.css",
+    "static/js/main.e41de685.js"
   ]
 }
