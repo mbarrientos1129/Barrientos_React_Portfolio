@@ -2,26 +2,6 @@ import React from 'react';
 import devResume from '../components/Assets/Resume.pdf';
 import Button from 'react-bootstrap/Button';
 
-const styles = {
-    heading: {
-        margin: 0,
-        padding: '75px',
-        textAlign: 'center',
-        fontSize: '3rem',
-        color: 'white',
-    },
-    paragraph: {
-        flex: '70%',
-        padding: '20px',
-        height: '250px',
-        margin: '0',
-        textAlign: 'center',
-        fontSize: '20px'
-    },
-    
-    
-};
-
 function ResumePage() {
     return (
 
@@ -31,11 +11,11 @@ function ResumePage() {
 
                 <div className="contentBox" id="resumepage">
 
-                    <h2 style={styles.heading}>Resume</h2>
-                    <p style={styles.paragraph}>
+                    <h2 className='contactHeading'>Resume</h2>
+                    <p className='contactText'>
                         This is my current resume. Please take a look!
                     </p>
-                    <Button style={styles.button} className="portfolioBtn" variant="warning" href={devResume} download={true}>Download</Button>
+                    <Button className="portfolioBtn" variant="warning" href={devResume} download={true}>Download</Button>
 
 
 

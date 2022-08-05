@@ -6,13 +6,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const styles = {
-    heading: {
-        margin: 0,
-        padding: '75px',
-        textAlign: 'center',
-        fontSize: '3rem',
-        backgroundColor: 'lightslategrey'
-    },
     icons: {
         display: 'inline-block',
         padding: '20px 50px',
@@ -23,19 +16,18 @@ const styles = {
         borderRadius: '10px',
         boarder: '3px solid',
         flexFlow: 'row wrap',
-
     }
 };
 
 function Footer() {
     return (
 
-        <div class="container">
+        <div class="footerContainer">
 
             <footer className="footer contentBox">
 
                 <div className="row">
-                    <h3 style={styles.heading}>Contact Info:</h3>
+                    <h3>Contact Info:</h3>
                     <div style={styles.icons} className="col d-flex justify-content-end text-end" id='icons'>
                     <a href="https://www.linkedin.com/in/michael-barrientos-a18089205/"><FontAwesomeIcon icon={faLinkedin} size='lg' /></a>
                     </div>

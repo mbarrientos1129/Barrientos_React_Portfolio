@@ -8,29 +8,6 @@ import bookSearch from "./Assets/bookSearch.PNG";
 import employeeTracker from "./Assets/employeeTracker.PNG";
 import socialNetworkAPI from "./Assets/socialNetworkAPI.PNG";
 
-
-const styles = {
-    heading: {
-        margin: 0,
-        padding: '75px',
-        textAlign: 'center',
-        fontSize: '3rem',
-        color: 'black',
-    },
-    image: {
-        width: '150px',
-        align: 'right',
-    },
-    paragraph: {
-        flex: '70%',
-        padding: '20px',
-        height: '250px',
-        margin: '0',
-        textAlign: 'center',
-        fontSize: '20px'
-      }
-};
-
 function Portfolio() {
     const ProjectsArray = [
         {
@@ -72,14 +49,45 @@ function Portfolio() {
     return (
         <div class='webConatiner'>
             <div className="App">
-                <h2 style={styles.heading}>Web Applications</h2>
-                <p style={styles.paragraph}>These applications listed below are a culmination of work I have completed. Ranging from 
-                    full application with other students, refactored applications into a MERN stack. As well
-                    as back end application where i feel most comfortable.
-                </p>
-                {ProjectsArray.map(project => {
-                    return <Project style={styles.image} link={project.link} title={project.title} image={project.image} />
-                })}
+                <h2 className="portfolioHeading">Web Applications</h2>
+                <div className="portfolioMeat">
+                    <p>
+                        Welcome to my Web Applications Section!
+                    </p>
+                    <p>
+                        Below are snippets of my web applications I have made, refactored, as well as worked collaboratively with other peers.
+                        These cards are interactive, they contain the link to these projects GitHub repository or their deployed links.
+                        As well on the footer there is a link to my GitHub profile, and I encourage you to peruse my repositories.
+                    </p>
+                    <p>
+                        There are three applications that have deployed links. Those application consist of Cumulus Chat, filmBites!, and Accord.
+                    </p>
+                    <p>
+                         <b>Application Uses for Overview - ></b>
+                    </p>
+                    <div className="webInstruction">
+                        <p>
+                            <b>Cumulus Chat:</b> Please pair with a cohort as this is how you will test if this application works.
+                            Upon page opening, you can use a test email for authentication and start chatting!
+                            Biggest challenge with this application was getting Socket.io to work properly.
+                            But after constant testing, we got it to work.
+                        </p>
+                        <p>
+                            <b>Accord:</b> This is a simple blog posting application.
+                        </p>
+                        <p>
+                            <b>filmBites!:</b> This application is used for a night in, if you really can’t decide what you want to each or watch.
+                            You can use this application to figure that out quickly. This application uses 2 API’s, themealDB and omDB.
+                            They were both great to work with, but we had limitations given by the API, but we got it to work and want to continue
+                            further development.
+                        </p>
+                    </div>
+                </div>
+                <div className="portfolioCard">
+                    {ProjectsArray.map(project => {
+                        return <Project link={project.link} title={project.title} image={project.image} />
+                    })}
+                </div>
             </div>
         </div>
     );
