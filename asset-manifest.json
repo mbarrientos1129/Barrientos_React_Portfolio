@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Barrientos_React_Portfolio/static/css/main.af0a9114.css",
+    "main.css": "/Barrientos_React_Portfolio/static/css/main.eea91095.css",
     "main.js": "/Barrientos_React_Portfolio/static/js/main.968bc1f8.js",
     "static/js/787.a2cb61a6.chunk.js": "/Barrientos_React_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/bookSearch.PNG": "/Barrientos_React_Portfolio/static/media/bookSearch.286f3252ff8fb4b066f1.PNG",
@@ -13,12 +13,12 @@
     "static/media/socialNetworkAPI.PNG": "/Barrientos_React_Portfolio/static/media/socialNetworkAPI.fa52117445d0949b17f9.PNG",
     "static/media/Ecommerce.png": "/Barrientos_React_Portfolio/static/media/Ecommerce.35b81fa9a3e860c2feae.png",
     "index.html": "/Barrientos_React_Portfolio/index.html",
-    "main.af0a9114.css.map": "/Barrientos_React_Portfolio/static/css/main.af0a9114.css.map",
+    "main.eea91095.css.map": "/Barrientos_React_Portfolio/static/css/main.eea91095.css.map",
     "main.968bc1f8.js.map": "/Barrientos_React_Portfolio/static/js/main.968bc1f8.js.map",
     "787.a2cb61a6.chunk.js.map": "/Barrientos_React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af0a9114.css",
+    "static/css/main.eea91095.css",
     "static/js/main.968bc1f8.js"
   ]
 }
