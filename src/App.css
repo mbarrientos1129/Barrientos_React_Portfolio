@@ -11,6 +11,7 @@ body {
 
 div a:link {
     text-decoration: underline;
+    color: black;
     position: relative;
     padding: 14px 20px;
     display: inline-block;
@@ -35,14 +36,15 @@ div a:visited {
 
 }
 .portfolioMeat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    flex: 70%;
     padding: 75px;
     height: 250px;
     margin: 0;
     text-align: center;
     font-size: 20px;
-
 }
 
 .webInstruction {
@@ -51,20 +53,19 @@ div a:visited {
 
 .portfolioCard {
     display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
     text-decoration: none;
     padding-top: 300px;
     border-radius: 10px;
-    flex-flow: row wrap;
     margin: 1rem;
     vertical-align: bottom;
 }
 
 .Project {
-    text-decoration: none;
+    text-decoration: none; 
     padding: 20px 50px;
-    flex-flow: row wrap;
     margin: 1rem; 
-    display: inline-block;
 }
 
 .Project img {

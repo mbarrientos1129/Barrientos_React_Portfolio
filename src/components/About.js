@@ -33,7 +33,12 @@ function About() {
             are constantly being improved or created. It's a whole lot of learning that keeps other, I feel,
             from burning out. This industry is exciting, and I will bring value to any company given that I will
             learn quickly, accurately, and implement ideas through trial and error.
+          </p>
 
+          <p>
+            Through my development journey, I have picked up other technologies. Like Python, Java, for new langauges and they have been an
+            amazing tool to have. I have become more proficient with the logic behind websites, building a Tech News API with Java and
+            refactoring a back-and of a News site with Python, SQLAlchemy for the database, and Flask as to render the front-end templates.
           </p>
         </div>
       </div>

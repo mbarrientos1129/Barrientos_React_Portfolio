@@ -62,9 +62,6 @@ function Portfolio() {
                     <p>
                         There are three applications that have deployed links. Those application consist of Cumulus Chat, filmBites!, and Accord.
                     </p>
-                    <p>
-                         <b>Application Uses for Overview - ></b>
-                    </p>
                     <div className="webInstruction">
                         <p>
                             <b>Cumulus Chat:</b> Please pair with a cohort as this is how you will test if this application works.
